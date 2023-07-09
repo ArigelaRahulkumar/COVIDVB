@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>COVID Vaccination Booking</title>
+  <link rel="stylesheet" type="text/css" href="covid.css">
+</head>
+<body>
+  <header>
+    <h1>COVID Vaccination Booking</h1>
+  </header>
+  
+ <main>
+  <section>
+    <h2>Welcome to COVID Vaccination Booking</h2>
+    <p>Please sign in or sign up to proceed.</p>
+    <div>
+      <button id="userLoginBtn">User Login</button>
+      <button id="adminLoginBtn">Admin Login</button>
+      <button id="signupBtn">Sign Up</button>
+    </div>
+  </section>
+
+  <section id="searchSection">
+    <h2>Search Vaccination Centre</h2>
+    <form>
+      <input type="text" placeholder="Enter location">
+      <button type="submit">Search</button>
+    </form>
+    <div id="searchResults">
+      <!-- Search results will be dynamically populated here -->
+    </div>
+  </section>
+
+  <section id="bookingSection">
+    <h2>Book a Vaccination Slot</h2>
+    <p>Select a vaccination centre and available slot:</p>
+    <div id="vaccinationCentres">
+      <!-- Vaccination centres and their available slots will be dynamically populated here -->
+    </div>
+  </section>
+
+  <section id="logoutSection">
+    <h2>Logout</h2>
+    <p>Click the button below to logout.</p>
+    <button id="logoutBtn">Logout</button>
+  </section>
+</main>
+
+
+  <footer>
+    <p>&copy; 2023 Your Company</p>
+  </footer>
+
+  <script src="covid.js"></script>
+</body>
+</html>
